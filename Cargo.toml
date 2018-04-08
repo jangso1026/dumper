@@ -1,0 +1,7 @@
+[package]
+name = "dumper"
+version = "0.1.0"
+authors = ["So <jangso@oregonstate.edu>"]
+
+[dependencies]
+clap = { version = "2.31", features = ["yaml"] }

@@ -1,0 +1,17 @@
+name: dumper
+version: "1.0"
+author: So Yeon
+about: Does awesome things
+args:
+    - file:
+        short: f
+        long: file
+        value_name: FILE
+        help: Sets a custom config file
+        takes_value: true
+    - kitty:
+        short: k
+        long: kitty
+        value_name: kitty
+        help: scratching kitty's chin
+        takes_value: true 
